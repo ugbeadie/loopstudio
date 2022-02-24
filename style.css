@@ -351,7 +351,7 @@ nav {
     background-image: url(images/mobile/image-hero.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    /* height: 100vh; */
   }
   nav {
     padding: 35px 25px;
@@ -426,7 +426,7 @@ nav {
   .hero-wrapper h2 {
     font-size: 30px;
   }
-  .about-wrapper h1 {
+  /* .about-info h1 {
     font-size: 25px;
-  }
+  } */
 }
