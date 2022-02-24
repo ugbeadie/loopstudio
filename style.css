@@ -263,6 +263,8 @@ nav {
     background-image: url(images/mobile/image-hero.jpg);
     background-size: cover;
     background-position: center;
+    height: 100vh;
+
   }
   nav {
     padding: 20px 30px;
@@ -343,6 +345,7 @@ nav {
     background-image: url(images/mobile/image-hero.jpg);
     background-size: cover;
     background-position: center;
+    height: 100vh;
   }
   nav {
     padding: 35px 25px;
@@ -409,9 +412,6 @@ nav {
   }
  
 @media screen and (max-width: 330px) {
-  .hero {
-    height: 70vh;
-  }
   nav {
     padding: 25px 15px;
   }
