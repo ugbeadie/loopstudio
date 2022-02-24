@@ -416,7 +416,7 @@ nav {
   .about-info p {
     font-size: 14px;
     line-height: 1.6;
-    opacity: 0.5;
+    opacity: 0.4;
 }
  
 @media screen and (max-width: 330px) {
