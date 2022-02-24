@@ -363,6 +363,12 @@ nav {
   .icons {
     display: flex;
   }
+  .scrolling-active {
+    background-color: var(--grayishblue);
+    transition: 0.5s ease-in;
+    position: sticky;
+
+  }
   .imgd {
     display: none;
   }
@@ -416,7 +422,7 @@ nav {
   .about-info p {
     font-size: 14px;
     line-height: 1.6;
-    opacity: 0.4;
+    opacity: 0.6;
 }
  
 @media screen and (max-width: 330px) {
