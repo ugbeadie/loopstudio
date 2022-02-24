@@ -402,10 +402,10 @@ nav {
     padding: 20px;
   }
   .about-wrapper h1 {
-    font-size: 32px;
+    font-size: 34px;
   }
   .about-wrapper p {
-    font-size: 12px;
+    font-size: 14px;
   }
  
 @media screen and (max-width: 330px) {
