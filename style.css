@@ -25,6 +25,13 @@ nav {
   padding: 30px 112px;
 }
 
+/* .scrolling-active {
+  background-color: black;
+  transition: 0.5s ease-in;
+  position: sticky;
+  top: 0;
+} */
+
 .hidden {
     overflow: hidden;
   }
@@ -354,7 +361,7 @@ nav {
     /* height: 100vh; */
   }
   nav {
-    padding: 35px 25px;
+    padding: 20px 25px;
   }
   .burger,
   .imgm {
@@ -364,11 +371,12 @@ nav {
     display: flex;
   }
   .scrolling-active {
-    background-color: var(--grayishblue);
-    transition: 0.5s ease-in;
-    position: sticky;
-
-  }
+  background-color: black;
+  transition: 0.5s ease-in;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
   .imgd {
     display: none;
   }

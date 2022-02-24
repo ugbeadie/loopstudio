@@ -13,6 +13,12 @@ burger.addEventListener('click', () => {
     // document.body.classList.toggle('hidden')
 })
 
+// window.addEventListener ('scroll', function() {
+//     let navBar = document.querySelector('nav');
+//     let windowPosition =  window.scrollY > 400;
+//     navBar.classList.toggle('scrolling-active', windowPosition);
+// })
+
 // close.addEventListener('click', () => {
 //     navUl.classList.toggle('active');
 //     navMenu.classList.toggle('navmenu')
