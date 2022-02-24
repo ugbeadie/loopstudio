@@ -411,11 +411,12 @@ nav {
     padding: 20px;
   }
   .about-info h1 {
-    font-size: 36px;
+    font-size: 38px;
   }
   .about-info p {
     font-size: 14px;
     line-height: 1.6;
+    opacity: 0.6;
 }
  
 @media screen and (max-width: 330px) {
