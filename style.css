@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+}
+
+.burger {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 90px;
+}
+
+.nav-items ul {
+  display: flex;
+}
+
+.nav-items li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: var(--white);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.icons {
+  display: none;
+}
+
+.hero {
+  height: 100vh;
+  background: url(images/desktop/image-hero.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-wrapper {
+  width: 100%;
+  position: relative;
+  max-width: 55%;
+  background-color: black;
+}
+
+.hero-wrapper h2 {
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+  color: var(--white);
+  top: 100px;
+  left: 90px;
+  font-size: 70px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.1;
+  border: 1px solid white;
+  padding: 30px 40px;
+}
+
+.icons {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    padding: 20px 60px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    padding: 35px 25px;
+  }
+  .burger {
+    display: flex;
+  }
+
+  .icons {
+    display: flex;
+  }
+
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 85vh;
+    background-color: black;
+    margin-top: 20px;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    z-index: 1;
+    /* transition: 0.5s ease-in; */
+  }
+  .nav-items ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 95px;
+    padding-left: 15px;
+    width: 100%;
+  }
+  .nav-items li {
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 300;
+    opacity: 0.7;
+  }
+  .nav-items li a {
+    background-color: var(--verydarkviolet);
+    color: white;
+  }
+  .nav-items.active,
+  nav.active {
+    display: flex;
+    background-color: black;
+  }
+  .hero-wrapper h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    padding: 20px;
+  }
+}
