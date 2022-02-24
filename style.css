@@ -336,6 +336,13 @@ nav {
     top: 100%;
     right: 5%;
   }
+  .about-info h1 {
+    font-size: 40px;
+  }
+  .about-info p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
 }
 
 
@@ -403,12 +410,13 @@ nav {
   .about-wrapper {
     padding: 20px;
   }
-  .about-wrapper h1 {
-    font-size: 35px;
+  .about-info h1 {
+    font-size: 36px;
   }
-  .about-wrapper p {
-    font-size: 15px;
-  }
+  .about-info p {
+    font-size: 14px;
+    line-height: 1.6;
+}
  
 @media screen and (max-width: 330px) {
   nav {
