@@ -587,6 +587,9 @@ nav h3 {
 }
 
 @media screen and (max-width: 500px) {
+  * {
+    scroll-behavior: smooth;
+  }
   .hero {
     background-image: url(images/mobile/image-hero.jpg);
     background-size: cover;
