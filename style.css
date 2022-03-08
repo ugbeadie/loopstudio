@@ -623,7 +623,16 @@ nav h3 {
   nav {
     padding: 15px 25px;
   }
-
+  .toggle-button {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+    width: 30px;
+  }
   .black {
     --nav-bg: hsl(0, 0%, 0%);
   }
