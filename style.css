@@ -626,7 +626,7 @@ nav h3 {
   .toggle-button {
     display: flex;
     position: absolute;
-    top: 25px;
+    top: 23px;
     right: 25px;
     flex-direction: column;
     justify-content: space-between;
