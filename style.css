@@ -12,6 +12,8 @@
   --Black: hsl(0, 0%, 0%);
   --DG: hsl(0, 0%, 55%);
   --VDG: hsl(0, 0%, 41%);
+  --toggle-btn: url(images/icon-hamburger.svg);
+
   /* --nav-bg: hsl(0, 0%, 0%, 0); */
 }
 
@@ -19,17 +21,22 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.burger {
+.toggle-button {
   display: none;
+  background: var(--toggle-btn) no-repeat;
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
 }
 
-/* .black {
-  --nav-bg: hsl(0, 0%, 0%);
-} */
-
-/* .cross {
-  background-image: url(/images/icon-close.svg);
-} */
+.cross {
+  --toggle-btn: url(images/icon-close.svg);
+}
 
 nav {
   width: 100%;
@@ -42,11 +49,9 @@ nav {
   position: absolute;
   top: 0;
   z-index: 1;
-  /* transition: 0.5s ease-in; */
 }
 
 .scrolling-active {
-  /* background-color: black; */
   transition: 0.5s ease-in;
   position: sticky;
   top: 0;
@@ -187,11 +192,16 @@ nav h3 {
   gap: 25px;
   margin-top: 50px;
 }
+
 .c-img {
   position: relative;
   width: 100%;
   height: 420px;
   cursor: pointer;
+}
+
+.c-img:hover {
+  color: black;
 }
 
 .c-img .span {
@@ -229,13 +239,13 @@ nav h3 {
     url(images/desktop/image-deep-earth.jpg);
   background-size: 100% 100%;
 }
-.c-img1:hover {
+/* .c-img1:hover {
   background: linear-gradient(hsla(0, 0%, 100%, 0.7) 100%, rgba(0, 0, 0, 0)),
     url(images/desktop/image-deep-earth.jpg) no-repeat;
   background-size: 100% 100%;
   height: 420px;
-  color: green;
-}
+  color: black;
+} */
 .c-img2 {
   background: linear-gradient(
       hsla(0, 0%, 0%, 0.25) 100%,
@@ -244,6 +254,14 @@ nav h3 {
     url(images/desktop/image-night-arcade.jpg);
   background-size: 100% 100%;
 }
+/* .c-img2:hover {
+  background: linear-gradient(hsla(0, 0%, 100%, 0.7) 100%, rgba(0, 0, 0, 0)),
+    url(images/desktop/image-night-arcade.jpg) no-repeat;
+  background-size: 100% 100%;
+  height: 420px;
+  color: black;
+} */
+
 .c-img3 {
   background: linear-gradient(
       hsla(0, 0%, 0%, 0.25) 100%,
@@ -454,12 +472,19 @@ nav h3 {
   nav {
     padding: 20px 30px;
   }
-  .burger,
-  .icons,
-  .imgm {
+  .toggle-button {
     display: flex;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+    width: 30px;
   }
-
+  .black {
+    --nav-bg: hsl(0, 0%, 0%);
+  }
   .imgd {
     display: none;
   }
@@ -597,25 +622,12 @@ nav h3 {
   }
   nav {
     padding: 15px 25px;
-    /* background-color: var(--nav-bg); */
   }
-  .burger,
-  .imgm {
-    display: flex;
-  }
-  .icons {
-    display: flex;
-  }
+
   .black {
     --nav-bg: hsl(0, 0%, 0%);
   }
-  .scrolling-active {
-    /* background-color: black; */
-    /* transition: 0.5s ease-in; */
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
+
   .imgd {
     display: none;
   }
@@ -644,23 +656,18 @@ nav h3 {
     font-weight: 300;
     opacity: 0.7;
   }
-  /* .hidden {
+  .hidden {
     overflow: hidden;
-  } */
+  }
 
   .nav-items li a {
-    /* background-color: var(--verydarkviolet); */
     color: white;
   }
   .nav-items.active {
-    /* nav.active { */
     display: flex;
-    /* background-color: black; */
-    /* transition: 0.5s ease-in; */
   }
   nav.active {
     display: flex;
-    /* background-color: black; */
   }
   .hero-wrapper h2 {
     font-size: 42px;
