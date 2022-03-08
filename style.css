@@ -627,7 +627,7 @@ nav h3 {
     display: flex;
     position: absolute;
     top: 23px;
-    right: 25px;
+    right: 18px;
     flex-direction: column;
     justify-content: space-between;
     height: 30px;
