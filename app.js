@@ -24,7 +24,6 @@ window.addEventListener('scroll',  function() {
 
 function hideUl() {
     document.body.classList.toggle("cross");
-
     document.body.classList.toggle('hidden');
     navUl.classList.toggle('active');
     document.body.classList.toggle("black");
