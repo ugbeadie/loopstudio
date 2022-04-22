@@ -77,9 +77,9 @@ nav h3 {
   color: var(--white);
 }
 
-.icons {
+/* .icons {
   display: none;
-}
+} */
 
 .nav-items ul li:hover {
   text-decoration: underline;
