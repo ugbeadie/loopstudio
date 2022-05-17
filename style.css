@@ -503,6 +503,9 @@ nav h3 {
     color: white;
     padding-top: 10px;
   }
+  .nav-items li a:hover {
+    border-bottom: none;
+  }
   .nav-items.active,
   nav.active {
     display: flex;
