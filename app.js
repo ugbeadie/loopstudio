@@ -1,7 +1,6 @@
 const toggleButton = document.getElementsByClassName("toggle-button")[0]
 const navUl = document.getElementsByClassName('nav-items')[0];
 const navMenu = document.querySelector('nav')
-// const close = document.querySelector('close')
 
 toggleButton.addEventListener('click', () => {
     navUl.classList.toggle('active');
