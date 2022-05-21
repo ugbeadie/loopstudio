@@ -586,9 +586,6 @@ nav h3 {
   .about {
     width: 100%;
   }
-  /* .about-info {
-    width: 90%;
-  } */
   .about-wrapper {
     padding: 25px;
   }
@@ -789,6 +786,13 @@ nav h3 {
       url(images/mobile/image-deep-earth.jpg);
     background-size: 100% 100%;
   }
+  .c-img1:hover {
+    background: linear-gradient(hsla(0, 0%, 0%, 0.25) 100%,
+        rgba(255, 255, 255, 0)),
+      url(images/mobile/image-deep-earth.jpg) no-repeat;
+    background-size: cover;
+    color: var(--white);
+  }
   .c-img2 {
     background: linear-gradient(
         hsla(0, 0%, 0%, 0.25) 100%,
@@ -796,6 +800,13 @@ nav h3 {
       ),
       url(images/mobile/image-night-arcade.jpg);
     background-size: 100% 100%;
+  }
+  .c-img2:hover {
+    background: linear-gradient(hsla(0, 0%, 0%, 0.25) 100%,
+        rgba(255, 255, 255, 0)),
+      url(images/mobile/image-night-arcade.jpg) no-repeat;
+    background-size: cover;
+    color: var(--white);
   }
   .c-img3 {
     background: linear-gradient(
@@ -805,6 +816,13 @@ nav h3 {
       url(images/mobile/image-soccer-team.jpg);
     background-size: 100% 100%;
   }
+  .c-img3:hover {
+    background: linear-gradient(hsla(0, 0%, 0%, 0.25) 100%,
+        rgba(255, 255, 255, 0)),
+      url(images/mobile/image-soccer-team.jpg) no-repeat;
+    background-size: cover;
+    color: var(--white);
+  }
   .c-img4 {
     background: linear-gradient(
         hsla(0, 0%, 0%, 0.25) 100%,
@@ -812,6 +830,13 @@ nav h3 {
       ),
       url(images/mobile/image-grid.jpg);
     background-size: 100% 100%;
+  }
+  .c-img4:hover {
+    background: linear-gradient(hsla(0, 0%, 0%, 0.25) 100%,
+        rgba(255, 255, 255, 0)),
+      url(images/mobile/image-grid.jpg) no-repeat;
+    background-size: cover;
+    color: var(--white);
   }
   .c-img5 {
     background: linear-gradient(
@@ -821,6 +846,13 @@ nav h3 {
       url(images/mobile/image-from-above.jpg);
     background-size: 100% 100%;
   }
+  .c-img5:hover {
+    background: linear-gradient(hsla(0, 0%, 0%, 0.25) 100%,
+        rgba(255, 255, 255, 0)),
+      url(images/mobile/image-from-above.jpg) no-repeat;
+    background-size: cover;
+    color: var(--white);
+  }
   .c-img6 {
     background: linear-gradient(
         hsla(0, 0%, 0%, 0.25) 100%,
@@ -828,6 +860,13 @@ nav h3 {
       ),
       url(images/mobile/image-pocket-borealis.jpg);
     background-size: 100% 100%;
+  }
+  .c-img6:hover {
+    background: linear-gradient(hsla(0, 0%, 0%, 0.25) 100%,
+        rgba(255, 255, 255, 0)),
+      url(images/mobile/image-pocket-borealis.jpg) no-repeat;
+    background-size: cover;
+    color: var(--white);
   }
   .c-img7 {
     background: linear-gradient(
@@ -837,6 +876,13 @@ nav h3 {
       url(images/mobile/image-curiosity.jpg);
     background-size: 100% 100%;
   }
+  .c-img7:hover {
+    background: linear-gradient(hsla(0, 0%, 0%, 0.25) 100%,
+        rgba(255, 255, 255, 0)),
+      url(images/mobile/image-curiosity.jpg) no-repeat;
+    background-size: cover;
+    color: var(--white);
+  }
   .c-img8 {
     background: linear-gradient(
         hsla(0, 0%, 0%, 0.25) 100%,
@@ -844,6 +890,13 @@ nav h3 {
       ),
       url(images/mobile/image-fisheye.jpg);
     background-size: 100% 100%;
+  }
+  .c-img8:hover {
+    background: linear-gradient(hsla(0, 0%, 0%, 0.25) 100%,
+        rgba(255, 255, 255, 0)),
+      url(images/mobile/image-fisheye.jpg) no-repeat;
+    background-size: cover;
+    color: var(--white);
   }
   .links {
     display: block;
